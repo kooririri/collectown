@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*****		親要素		*********/
+#main {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*****		子要素		*********/
+
+.demand_wrap , .demand_wrap2 {
+	font-family: 'ヒラギノpro';
+	display: flex;
+	margin: 10px 0px 10px 0px;
+	font-size: 18px;
+}
+
+
+/**********************************/
+/*  募集品のタイトル  */
+.de_name {
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid 2px #E2E2E2;
+	font-size: 20px;
+}
+
+
+#preview img {
+	width: 125px;
+	height: 100px;
+	/*
+	max-width: 30%;
+	max-height: 30%;
+	*/
+}
+
+/*** 応募概要 ***/
+.intr {
+	width: 70%;
+	text-align: left;
+	margin-left: 80px;
+}
+
+
+.demand_con2 {
+	margin: 30px 0px 0px 0px;
+}
+.demand_con2 span {
+	margin-left: 80px;
+}

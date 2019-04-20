@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+.top_con {
+	width: 70%;
+	margin: 0 30px 20px 30px;
+	font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+	color: #333333;
+}
+/* MV設定 */
+.mv {
+	width: 80%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.mv img {
+	width: 100%;
+	height: 55vh;
+	
+}
+
+/* メインビジュアル画像の上に文字を重ねる */
+.mv_font {
+	font-family: 'arial unicode ms';
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 18%;
+}
+
+.mv_font .ttl {
+	font-size: 46px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: normal;
+}
+
+.mv_font p {
+	font-size: 22px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sub {
+	/*
+	margin-top: 80px;
+	*/
+	margin-top: 50px;
+}
+
+
+/**
+**ソートメニュー
+**/
+#maincont {
+	margin: 20px 0 50px 0;
+}
+
+
+/*******************************************************************/
+h3 {
+	font-size: 30px;
+	/*font-weight: normal;*/
+	font-weight: bolder;
+	margin: 20px 0 0 0;
+}
+
+
+.main_contents {
+	display: flex;
+	/*
+	justify-content: space-between; 
+	*/
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+
+.main_con {
+	margin: 30px 50px 10px 0px;
+	/*width: 270px;*/
+	border: solid 1px #E2E2E2;
+
+}
+
+.m_con {
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+
+.m_con p {
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+}
+
+p.col_ttl {
+	margin: 5px 0 10px 0;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+p.cap {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+.m_img {
+/*	display: flex;
+	width: 270px;
+	height: 150px;
+	background-color: #F2F2F2;*/
+}
+
+/*
+.m_img img {
+  width: 270px; 
+  height: 170px;
+}
+*/
+.m_img img {
+	width: 350px;
+	height: 200px;
+	object-fit: cover;
+}
+
+/*
+.ra_pic {
+  width: 300px; 
+  height: 150px;
+  object-fit: cover;
+  /*object-fit: contain;*/
+}
+
+
+/*
+.m_con span {
+	color: #333333;
+	font-size: 12px;
+}
+*/
+div.times {
+	color: #840505 !important;
+	
+}
+
+.subcont {
+	display: flex;
+	/*
+	justify-content: space-between; 
+	*/
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+
+/* 代行依頼一覧 */
+
+/*  親要素 
+.cont_demand {
+	display: flex;
+	margin: 20px 0 10px 0;
+}
+*/
+
+.contents {
+	margin: 30px 50px 10px 0px;
+	/*width: 270px;*/
+	border: solid 1px #E2E2E2;
+}
+
+.m_wrap {
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: baseline;
+	
+}
+
+.ttl3 {
+	width: 50%;
+	margin: 5px 10px 0 0;
+}
+
+
+.img_wrap img {
+	width: 350px;
+	max-width: 100%;
+	height: 200px;
+	max-height: 100%;
+	/*object-fit: contain;*/
+	object-fit: cover;
+}
+
+/*  代行募集のアイコンなど  */
+.chatBtn {
+	margin: 20px 0px 10px 0;
+	height: 70px;
+	display: flex;
+	align-self: center;
+}
+
+.profile {
+	border-radius: 50%;
+	height: 50px;
+	overflow: hidden;
+	margin: 0 10px 10px 10px;
+}
+
+.profile img {
+	width:50px;
+	height:50px;
+	
+}
+
+.nick {
+	font-size: 18px;
+	width: 60%;
+	margin: 10px 0 20px 20px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ハッシュタグを横並びにする */
+.hush_tag {
+	display: inline; 
+}
+
+
+/* MORE */
+.more_btn {
+	width: 50%;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #AEE0E6;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 5px;
+
+}
+
+.more_btn  {
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+
+}
+
+.more_btn a:visited {
+	color: #fff; 
+}
+.more_btn a:link {
+	color: #fff;
+}
+.more_btn a:hover {
+	color: #ccc;
+}
+
+.about {
+	width: 80%;
+	position: relative;
+	color: #fff;
+	margin: 30px 0px 10px 0px;
+	background-color: #000;
+	height: 600px;
+	text-align: center;
+}
+
+.about_con {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	
+}
+
+.ttl4 {
+	/*font-family: 'Avenir';*/
+		font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.min_ttl {
+	font-family: 'ヒラギノ角ゴ Pro';
+	font-size: 18px;
+}
+
+.about_btn {
+	font-family: 'Arial';
+	font-size: 16px;
+	padding: 5px;
+	margin: 20px 0px 10px 0px;
+	color: #fff;
+	border: solid 0.5px #fff;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.service {
+	display: flex;
+	justify-content: space-around;
+	
+	width: 80%;
+}
+
+
+.service p {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.collection , .bbs , .acting {
+	margin: 20px 0px 20px 0px;
+	width: 27%;
+	padding: 15px 10px 15px 10px;
+	background-color: #EDEDED;
+	border-radius: 30px 30px 30px 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+
+
+/*  ニュース＆トピック */
+.news {
+	display: flex;
+	margin: 0;
+	/*margin: 50px 0 30px 10px;*/
+	
+}
+
+.dummy {
+	width: 20%;
+	padding-right: 30px;
+	margin: 0 50px 0 20px;
+	padding-right: 30px;
+	border-right: solid 1px #E2E2E2; /*右にボーダー  */
+	/*min-width: 20%;*/
+	max-width: 20%;
+
+	
+}
+.topic {
+	width: 60%;
+	height: auto;
+	margin-bottom: 30px;
+	border: solid 1px #F2F2F2;
+	padding-left: 10px;
+	/*
+	background-color: #EEEEEE;
+	*/
+}
+
+
+.topic_ttl {
+	margin: 10px 0 50px 0;
+	font-size: 30px;
+	/*font-weight: normal;*/
+	font-weight: bolder;	
+}
+
+li.news_con {
+	width: 100px;
+	border: solid 0.5px #000;
+	padding: 6px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.news ul li {
+	display: inline-block;
+	height: 30px;
+	vertical-align: baseline;
+}
+
+.news ul {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.news li {
+	margin-right: 30px;
+}
+
+li.top_date {
+	margin-right: 10px;
+	width: 120px;
+}
+
+li.news_con2 {
+	margin-left: 50px;
+}
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*****		親要素		*********/
+#main2 {
+	color: #6F7579;
+	font-size: 15px !important;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*****		子要素		*********/
+
+.app_wrap , .app_wrap2 {
+	font-family: 'ヒラギノpro';
+	display: flex;
+	margin: 10px 0px 10px 0px;
+}
+
+
+
+/**********************************/
+/*  代行依頼品　募集品のタイトル  */
+.ap_name {
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid 2px #E2E2E2;
+	font-size: 20px;
+}
+
+.sub_ttl {
+	font-size: 17px;
+	color: #3B4043;
+}
+
+#preview img {
+	width: 125px;
+	height: 100px;
+	/*
+	max-width: 30%;
+	max-height: 30%;
+	*/
+}
+
+/*** 応募概要 ***/
+.intr {
+	width: 70%;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.app_con2 {
+	margin: 30px 0px 0px 0px;
+}
+
+.app_con2 span {
+	margin-left: 50px;
+
+}
+
+.app_con3 span {
+	margin-left: 50px;
+}
+
+/**********************************/
+
+.edit {
+	margin: 20px 0px 20px 0px;
+}
+
+
+.delete {
+	margin: 10px 0px 10px 0px;
+}
+
+input[type="text"] {
+
+	width: 500px;
+}
+
+input[type="submit"] {
+	margin: 20px 0px 20px 0px;
+	color: #fff;
+	background-color: #555555;
+	border: none;
+	padding: 10px;
+	width: 450px;
+}
+
+::placeholder {
+  color: #ccc;
+  font-size: 15px;
+  vertical-align: middle;
+}

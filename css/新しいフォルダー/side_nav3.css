@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+.wrapeer {
+	display: flex;
+    font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+	font-weight: normal !important;
+}
+.side_nav {
+	margin: 10px 0px 0px 20px;
+	padding-right: 40px;
+	border-right: solid 1px #E2E2E2;
+	/*min-width: 20%;*/
+	max-width: 25%;
+	padding-left: 10px;
+	width: 400px;
+
+}
+
+
+/* 検索 */
+dl.search{
+    position:relative;
+    background-color:#fff;
+    border:1px solid #aaa;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -o-border-radius:6px;
+    -ms-border-radius:6px;
+    border-radius:6px;
+}
+dl.search dt{
+    margin-right:40px;
+    padding:8px 0 8px 8px;
+}
+dl.search dt input{
+    width:100%;
+	height:24px;
+    line-height:24px;
+    background:none;
+    border:none;
+}
+
+
+dl.search dd{
+    position:absolute;
+    top: -18px; /* 虫眼鏡アイコンの位置を調整 */
+    right:0;
+}
+dl.search dd button{
+    display:block;
+    padding:10px;
+    background:none;
+    border:none;
+}
+dl.search dd button span{
+    display:block;
+	width: 20px;
+	height: 20px;
+    background:url('../img/search.png') no-repeat scroll 0 0;
+
+}
+
+.acting_btn {
+	margin: 20px 0px 30px 0px;
+	width: 100%;
+	text-align: center;
+}
+.acting_btn a {
+	width: 95%;
+	text-align: center;
+	padding: 10px;
+	background-color: #3B4043;
+	color: #fff;
+}
+
+
+/* form に関する設定 */
+.side_nav form {
+	text-align: center;
+}
+
+
+input[type="text"] ,input[type="email"] ,input[type="password"]{
+	width: 100%;
+}
+
+
+
+button {
+	width: 50%;
+	margin: 20px 0px 20px 0px;
+	background-color: #555555;
+	color: #fff;
+	border-style: none;
+	text-align: center;
+	font-size: 14px;
+}
+
+button:hover {
+	background-color: #E2E2E2;
+	color: #555555;
+}
+
+
+.side_nav .ttl {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 0px 10px 0px;
+}
+
+.form1 {
+	background-color: #F7E9E9;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+}
+
+.form2 {
+	background-color: #E9F1F7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.f_con {
+	text-align: left;
+	font-size: 15px;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+
+/* カテゴリ */
+.category_search {
+		margin-top: 20px;
+}
+
+.ttl2 {
+	border-bottom: solid 1px #E2E2E2;
+	padding-bottom: 3px;
+	font-size: 18px	;
+}
+
+.category_search ul {
+	margin: 10px 0px 10px 0px;
+	list-style: none;
+}
+
+
+ul li a {
+	line-height: 28px;
+}
+
+.category_search li {
+	margin-bottom: 10px;
+}
+.category_search span {
+	margin-left: 10px;
+	vertical-align: middle;
+	color: #3B4043;
+}
+
+.category_search img {
+	vertical-align: middle;
+}
+
+/* ランキング */
+.ranking_search ul {
+	list-style: none;
+}
+
+.ranking_search {
+	margin: 20px 0px 20px 0px;
+}
+
+.rank_con {
+	display: flex;
+	margin: 10px 0px 10px 0px;
+}
+
+.article_img {
+	background-color: #F2F2F2;
+	width: 120px;
+	height: 120px;
+}
+
+.num {
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	background-color: #707070;
+	color: #fff;
+}
+
+.article_con {
+	flex-wrap: wrap;
+	margin-left: 10px;
+}
+
+/* トレンドハッシュタグ */
+.h_con {
+	display: flex;
+	flex-wrap: wrap;  /* 子要素の折り返しあり */
+}
+
+.tag span {
+	color: #333333;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+
+.wrapper {
+	display: flex;
+	font-family: 'ヒラギノ角ゴ Pro';
+
+}
+
+.side_nav {
+	margin: 10px 0px 0px 20px;
+	padding-right: 20px;
+	border-right: solid 1px #E2E2E2; /*右にボーダー  */
+	/*min-width: 20%;*/
+	max-width: 25%;
+
+}
+
+
+/* form に関する設定 */
+.side_nav form {
+	text-align: center;
+}

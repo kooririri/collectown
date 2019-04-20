@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+
+body {
+	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: #707070;
+}
+.collection {
+	letter-spacing: 0.05em;
+	margin-left: 80px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.collection h2 {
+	margin-top: 20px;
+	margin-bottom:10px;
+	font-size: 30px;
+    /* font-weight: normal; */
+    font-weight: bolder;
+}
+
+.col_con {
+	width: 100%;
+}
+
+.col_con p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.col_con textarea {
+	width: 800px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.col_con select {
+	padding: 5px;
+	width: 800px;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.col_con input[type=radio] {
+	/*
+	display: none;
+	*/
+	font-size: 15px;
+}
+
+.col_con label {
+	padding-right: 30px;
+}
+
+.col_btn input[type="submit"] {
+	width: 800px;
+	background-color: #000;
+	color: #fff;
+	margin: 30px 0px 30px 0px;
+	padding: 10px;
+	
+}
+
+.col_btn input[type="submit"]:hover {
+	color: #AEE0E6;
+}
+
+
+/* ドラッグ＆ドロップファイルアップロード  */
+#dragandrophandler {
+	border: 2px dotted #AEE0E6;
+	width: 800px;
+	height: 300px;
+	padding: 10px 10px 10 10px;
+	margin-bottom: 10px;
+	
+}
+
+
+#dragandrophandler p {
+	color: #92AAB0;
+	font-size: 150%;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 100px;
+	
+}
+
+
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    overflow: hidden;
+    display:inline-block;
+    margin:0px 10px 5px 5px;
+    vertical-align:top;
+}
+  
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0ba1b5;
+	border-radius: 3px; 
+}
+
+.statusbar {
+    border-top:1px solid #A9CCD1;
+    min-height:25px;
+    width:700px;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+}
+.statusbar:nth-child(odd){
+    background:#EBEFF0;
+}
+.filename　{
+	display:inline-block;
+	vertical-align:top;
+	width:250px;
+}
+.filesize　{
+	display:inline-block;
+	vertical-align:top;
+	color:#30693D;
+	width:100px;
+	margin-left:10px;
+	margin-right:5px;
+}
+.abort　{
+    background-color:#A8352F;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;display:inline-block;
+    color:#fff;
+    font-family:arial;font-size:13px;font-weight:normal;
+    padding:4px 15px;
+    cursor:pointer;
+    vertical-align:top
+}

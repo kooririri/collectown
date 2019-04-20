@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+
+/*  タイトル */
+.ttl {
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+.de_ttl {
+	margin-bottom: 20px;
+}
+
+/***************************************************/
+
+
+/***** フォーム *****/
+
+.file_up {
+  display: flex;
+  color: #fff;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding: 1em;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #AEE0E6;
+}
+
+.file_up input[type="file"] {
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  position: absolute;
+  /*
+  right: 0;
+  top: 0;
+  margin: 0;
+  */
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.img_preview {
+	display: inline;
+	max-width: 20%;
+	max-height: 20%;
+	margin-bottom: 100px;
+}
+
+
+
+.css input[type="text"]{
+	width: 80%;
+	max-height: 20%;
+	padding: 5px;
+}
+/*
+#price input[type="number"]{
+	border: solid 0.5px #000;
+	padding: 5px;
+	width: 80%;
+}
+
+
+#price{
+		width:200px;
+	}
+	
+	
+input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+   }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+*/
+
+
+select {
+	width: 80%;
+	height: 5%;
+}
+
+textarea {
+	/*
+	resize: horizontal;
+	max-width: 50%;
+	min-width: 25%;
+	*/
+	resize: none;
+}
+
+/***************************************************/
+
+/* 確認ボタンの設定 */
+input[type="submit"]{
+	font-size: 20px;
+	width: 80%;
+	height: 5%;
+}
+
+.button {
+	text-align: center;
+	margin: 20px auto 20px auto;
+	background-color: #3B4043;
+	color: #fff;
+	padding: 10px;
+	width: 80%;
+}
+
+
+.ttl2 {
+	margin: 0px 0px 30px 0px;
+}
+/***************************************************/
+
+
+/* 親要素 */
+#maincont {
+	width: 100%;
+	font-family: 'ヒラギノ角ゴ Pro';
+	font-size: 20px;
+	/*
+	margin: 30px 50px 20px 50px;
+	*/
+	margin-left: 100px;
+}
+
+/***************************************************/
+
+
+
+
+/***************************************************/
+
+#img_display {
+	min-height: 90%;
+	min-width: 90%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* アップロード予定のプレビュー表示 */
+#preview {
+	max-width: 50%;
+	max-height: 10%;
+}
+
+.css {
+	margin-top: 80px;
+}
+/***************************************************/
+
+
+/* ジャンル設定 */
+#genre_div {
+	margin-top: 30px;	
+}
+
+
+#time {
+	margin-top: 30px;
+	
+}
+
+#intr {
+	width: 300px;
+	height: 100px;
+}
+

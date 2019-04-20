@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* 子要素 */
+.main_con {
+	width: 100%;
+	margin: 10px 0px 10px 50px;
+}
+.main_con h2{
+	font-size: 30px;
+}
+
+.main_con ul {
+	list-style: none;
+}
+
+/*  */
+.main_top {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+
+/* 画像 */
+div.auction_img {
+	margin: 50px 0px 0px 0px;
+	width: 500px;
+	height:300px;
+	/*
+	min-width: 30%;
+	height: 20%;
+	*/
+}
+
+div.auction_img img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+
+.caption {
+	margin: 0px 0px 0px 50px;
+}
+.caption .ttl {
+	margin-top: 50px;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+/* 募集内容 */
+.auction_con {
+	width: 80%;
+	margin-top: 5%;
+}
+
+/*
+.auction_con li {
+	width: 100%;
+	border-bottom: solid 1px #F2F2F2;
+	font-size: 18px;
+	padding: 10px 0px 10px 0px;
+	vertical-align: center;
+}
+.auction_con span {
+	margin-left: 30%;
+	/* margin-left: 100px; */
+
+/*
+.auction_con span {
+	position: absolute;
+	left:500px;
+	}
+*/
+
+.a_con {
+	font-size: 20px;
+	display: flex;
+	margin: 10px 0 10px 0;
+	border-bottom: solid 1px #F2F2F2;
+	padding-bottom: 10px;
+	/*justify-content: space-between;*/
+}
+
+.a_ttl {
+	width: 300px;
+}
+.deadline {
+	color: #840505;
+}
+
+/* 代行引き受け希望者情報 */
+.auction_con2 {
+	margin: 50px 0 20px 0;
+}
+
+
+
+.a_con2 {
+	font-size: 20px;
+	display: flex;
+	margin: 10px 0 10px 0;
+	border-bottom: solid 1px #F2F2F2;
+	padding-bottom: 10px;
+}
+
+
+.a_ttl2 {
+	font-size: 20px;
+	color: #AEE0E6;
+	font-weight: bold;
+	margin: 5px 0px 30px 0px;
+}
+
+
+#auction{
+	width:70%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+input[type="number"]{
+	-moz-appearance: textfield;
+}
+
+
+/* 入札参加 */
+.join {
+	margin: 50px 0 30px 0;
+}
+
+.join p{
+	font-size: 18px;
+	margin: 10px 0px 5px 0px;
+}
+
+.a_ttl3 {
+	font-size: 20px;
+	color: #AEE0E6;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+
+/* フォーム部分の指定 */
+input#auction {
+	padding: 10px;
+	margin-bottom: 50px;
+	border: solid 0.5px #333;
+}
+
+.join input.btn {
+	background-color: #000;
+	color: #fff;
+	border-style: none;
+	width: 70%;
+	padding: 20px 10px 20px 10px;
+	font-size: 20px;
+}
+
+/* ホバーしたときの指定 */
+input[type="submit"]:hover{
+	color: #AEE0E6;
+}

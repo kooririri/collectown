@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*** 全体の文字の間隔を広める ***/
+body {
+	letter-spacing: 0.05em;
+	font-weight: normal;
+}
+
+/**************************************************/
+
+/*  引き受け応募のタイトル  */
+.ap_wrap {
+	display: flex;
+	flex-wrap: no-wrap; /* 子要素を折り返す */
+}
+
+.ap_wrap ul li {
+	font-size: 10px;
+}
+
+.am-text-primary am-text-lg strong {
+	font-family: 'ヒラギノ角ゴ Pro';
+	font-size: 30px;
+}
+
+/* 画像のサイズ */
+.am-img-thumbnail am-img-bdrs img{
+	max-width: 30%;
+	max-height: 25%;
+	/*width: 180px;
+	height: 100px;*/
+
+}
+
+
+/* アイテム項目 */
+
+.ap_btm {
+
+	border-bottom: solid 0.5px  #E2E2E2;
+}
+
+.ap_btm span {
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+/*************************************************/
+.ap_ttl {
+	font-size: 15px;
+	font-family: 'ヒラギノ角ゴ Pro';
+}

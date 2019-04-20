@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+body {
+	/*
+	font-family: 'Arial';
+	*/
+	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	color: #707070;
+}
+
+.main {
+	width: 100%;
+	margin: 10px 20px 0px 20px;
+
+}
+
+/* MV設定 */
+.mv {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.mv img {
+	width: 100%;
+	height: 55vh;
+	
+}
+
+/* メインビジュアル画像の上に文字を重ねる */
+.mv_font {
+	font-family: 'arial unicode ms';
+	color: #fff;
+	position: absolute;
+	top: 20%;
+	left: 18%;
+}
+
+.mv_font .ttl {
+	font-size: 46px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: normal;
+}
+
+.mv_font p {
+	font-size: 22px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sub {
+	/*
+	margin-top: 80px;
+	*/
+	margin-top: 50px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+.main_contents {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: #333333;	
+	margin-bottom: 30px;
+}
+
+.main_con {
+	margin: 30px 20px 10px 0px;
+	/*width: 270px;*/
+	border: solid 1px #E2E2E2;
+
+}
+
+.m_con {
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+
+.m_con p {
+	font-size: 15px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+
+.ttl3 {
+	color: #707070;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+
+.emp {
+	margin-left: 10px;
+}
+
+
+.col_ttl {
+	font-size: 15px;
+}
+
+.m_img {
+/*	display: flex;
+	width: 270px;
+	height: 150px;
+	background-color: #F2F2F2;*/
+}
+
+.m_img img {
+  width: 270px; 
+  height: 170px;
+}
+
+/*
+.ra_pic {
+  width: 300px; 
+  height: 150px;
+  object-fit: cover;
+  /*object-fit: contain;*/
+}
+
+
+.m_con span {
+	color: #333333;
+	font-size: 12px;
+}
+
+
+.time {
+	color: #840505;
+}
+
+
+/* ハッシュタグを横並びにする */
+.hush_tag {
+	display: inline; 
+}
+
+
+/* MORE */
+.more_btn {
+	width: 50%;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #AEE0E6;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 5px;
+
+}
+
+.more_btn  {
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+
+}
+
+.more_btn a:visited {
+	color: #fff; 
+}
+.more_btn a:link {
+	color: #fff;
+}
+.more_btn a:hover {
+	color: #ccc;
+}
+
+.about {
+	position: relative;
+	color: #fff;
+	margin: 30px 0px 10px 0px;
+	background-color: #3B4043;
+	height: 600px;
+	text-align: center;
+}
+
+.about_con {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	
+}
+
+.ttl4 {
+	font-family: 'Avenir';
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.min_ttl {
+	font-family: 'ヒラギノ角ゴ Pro';
+	font-size: 18px;
+}
+
+.about_btn {
+	font-family: 'Arial';
+	font-size: 16px;
+	padding: 5px;
+	margin: 20px 0px 10px 0px;
+	color: #fff;
+	border: solid 0.5px #fff;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.service {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.service p {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.collection , .bbs , .acting {
+	margin: 20px 0px 20px 0px;
+	width: 27%;
+	padding: 15px 10px 15px 10px;
+	background-color: #EDEDED;
+	border-radius: 30px 30px 30px 30px;
+	vertical-align: middle;
+	text-align: center;
+}

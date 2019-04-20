@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* ヘッダー */
+header {
+	color: #ccc;
+	background-color: #3B4043;
+	font-family: Meiryou;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: left;
+}
+
+span {
+	font-size: 10px;
+	/*vertical-align: 90%;*/
+}
+
+nav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'arial unicode ms';
+	/*font-family: 'SimHei';*/
+
+}
+
+ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	width: 80px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+li.member {
+	text-align: center;
+	border: solid 0.5px #ccc;
+
+}
+
+.nav {
+	flex-basis: 100px;
+	font-size: 7px;
+}
+
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}

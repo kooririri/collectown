@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* ヘッダー */
+header {
+	
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	z-index:10;
+	
+	/*font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; */
+}
+
+header img{
+	cursor: pointer;
+	display: block;
+}
+
+
+
+/* 親要素 */
+.wrap_nav {
+	color: #fff;
+	background-color: #000;
+	display: flex;
+	flex-wrap: nowrap;
+	font-family: 'arial unicode ms' , 'SimHei';
+	/*margin-bottom: 5%;*/
+	margin-bottom: 10px;
+	/*height: 65px;*/
+	justify-content: space-between; /*  子要素を両端に配置*/
+}
+
+/* 子要素 */
+.service_ttl h1 {
+	/*font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; */
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-size: 25px;
+	padding-top: 5px;
+	font-weight: bold;
+	text-align: left;
+	/*letter-spacing: 0.05em;*/
+}
+.service_ttl {
+	margin: 10px 10px 10px 10px;
+}
+.service_ttl p {
+	margin-bottom: 5px;
+}
+.service_ttl span{
+	font-size: 12px;
+}
+
+
+/* 子要素　メニュー項目 */
+.main_nav {
+	/*margin: 10px 0px 10px 0px;*/
+	align-self: center;
+
+}
+.main_nav ul {
+	display: flex;
+	margin-right: 20px;
+	padding: 0;
+	list-style: none;
+	justify-content: flex-end;
+}
+
+.main_nav li {
+	padding-left: 10px;
+	text-align: right;
+	margin-right: 30px;
+}
+
+.login {
+	background-color: #000;
+}
+.person {
+	background-color: #000;
+}
+
+.person:hover .per {
+	fill: #AEE0E6;
+}
+
+.person:hover {
+	fill: #AEE0E6;
+}
+
+.person path{
+	fill: currentColor;
+}
+.person:hover {
+	fill: #AEE0E6;
+}
+
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #AEE0E6;
+}
+
+a:hover path {
+  fill: #AEE0E6;
+}
+

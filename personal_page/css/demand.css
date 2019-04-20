@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*** 全体の文字の間隔を広める ***/
+body {
+	letter-spacing: 0.05em;
+}
+
+/**************************************************/
+
+
+.de_wrap {
+	display: flex;
+	flex-wrap: wrap; /* 子要素を折り返す */
+	
+}
+
+
+.am-text-primary am-text-lg strong {
+	font-family: 'ヒラギノ角ゴ Pro';
+	font-size: 30px;
+}
+
+.ra_pic {
+	margin: 10px 0px 10px 0px;
+	
+}
+
+
+.ra_pic img {
+	min-width: 20%;  /* 180px */
+	min-height: 20%; /* 140px */
+}
+
+/* アイテム項目 */
+
+.de_btm {
+	width: 100%;
+	border-bottom: solid 0.5px  #E2E2E2;
+}
+
+.de_btm span {
+	font-size: 15px;
+	margin-bottom: 10px;
+	
+	
+}
+
+/*************************************************/
+
+
+
+.demand_ttl {
+	font-size: 20px;
+	font-family: 'ヒラギノ角ゴ Pro';
+}
+
